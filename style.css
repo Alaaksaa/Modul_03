@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+img {
+    border-radius: 8px;
+}
+details {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+summary:hover {
+    color: #3498db;
+}
