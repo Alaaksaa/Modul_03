@@ -3,240 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal Resmi Keluarga</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Profile - Alam Akash Samudra</title>
+    <link rel="stylesheet" href="style_profile.css">
 </head>
-<body bgcolor="#f4f7f6" text="#2c3e50" link="#16a085" vlink="#2980b9" alink="#e74c3c">
+<body>
 
-    <!-- HEADER SEMANTIK HTML5 -->
+    <!-- NAVBAR -->
     <header>
-        <table border="0" cellpadding="15" cellspacing="0" width="100%" bgcolor="#3498db">
-            <tr>
-                <td align="left">
-                    <font size="5" face="Arial" color="#ffffff"><b>PORTAL KELUARGA SAMUDRA</b></font>
-                </td>
-                <td align="right">
-                    <!-- NAVIGASI UTAMA -->
-                    <nav>
-                        <font size="3" face="Arial">
-                            <a href="#profil"><font color="#ffffff"><b>Profil</b></font></a> &nbsp;|&nbsp; 
-                            <a href="#anggota"><font color="#ffffff"><b>Anggota</b></font></a> &nbsp;|&nbsp; 
-                            <a href="#kegiatan"><font color="#ffffff"><b>Agenda</b></font></a>
-                        </font>
-                    </nav>
-                </td>
-            </tr>
-        </table>
+        <div class="logo">ALAKSA<span>.PROFILE</span></div>
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
     </header>
 
-    <br>
+    <!-- HERO / BANNER -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- FOTO PROFIL DI TENGAH -->
+            <img src="fotoghibli.jpg" alt="Foto Alam Akash Samudra" class="profile-img">
+            
+            <h1>Halo, Saya <span>Alam Akash Samudra</span></h1>
+            <p>Mahasiswa Sistem Informasi | Web & Network Enthusiast</p>
+            <a href="#kontak" class="btn">Hubungi Saya</a>
+        </div>
+    </section>
 
-    <!-- KONTEN UTAMA (MAIN) -->
-    <main>
-        <center>
-            <table border="0" cellpadding="10" cellspacing="15" width="95%">
-                <tr valign="top">
-                    
-                    <!-- KOLOM KIRI: AREA KONTEN UTAMA (70%) -->
-                    <td width="70%">
-                        
-                        <!-- SECTION 1: HERO BANNER / PROFIL -->
-                        <section id="profil">
-                            <table border="0" cellpadding="20" cellspacing="0" width="100%" bgcolor="#ffffff">
-                                <tr>
-                                    <td align="center">
-                                        <font size="6" face="Georgia" color="#2c3e50"><b>Harmoni & Kebersamaan</b></font><br>
-                                        <font size="3" face="Arial" color="#7f8c8d"><i>"Rumah bukan hanya sekedar tempat tinggal, melainkan tempat di mana kita tumbuh dan cerita bermula."</i></font>
-                                        <br><br>
-                                        <img src="fotoghibli.jpg" alt="Foto Keluarga" width="95%" height="380" border="3" bordercolor="#bdc3c7">
-                                        <br><br>
-                                        <font size="2" color="#95a5a6"><i>( Ilustrasi Kebersamaan Keluarga )</i></font>
-                                    </td>
-                                </tr>
-                            </table>
-                        </section>
+    <!-- TENTANG SAYA -->
+    <section id="tentang" class="section">
+        <h2>Tentang Saya</h2>
+        <div class="card">
+            <p>Saya adalah mahasiswa aktif program studi <b>Sistem Informasi di Universitas Kuningan</b>. Memiliki ketertarikan mendalam pada pengembangan web, jaringan komputer, serta eksplorasi teknologi informasi terkini.</p>
+        </div>
+    </section>
 
-                        <br><hr color="#3498db" size="2"><br>
+    <!-- KEAHLIAN / SKILLS -->
+    <section id="keahlian" class="section">
+        <h2>Keahlian & Sertifikasi</h2>
+        <div class="grid">
+            <div class="card-item">
+                <h3>Jaringan Komputer</h3>
+                <p>MikroTik Certified Network Associate (MTCNA)</p>
+            </div>
+            <div class="card-item">
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, & Dasar Pemrograman Web</p>
+            </div>
+            <div class="card-item">
+                <h3>Tools & Environment</h3>
+                <p>Git, GitHub, VS Code, Linux</p>
+            </div>
+        </div>
+    </section>
 
-                        <!-- SECTION 2: BIODATA ANGGOTA KELUARGA -->
-                        <section id="anggota">
-                            <table border="0" cellpadding="15" cellspacing="0" width="100%" bgcolor="#ffffff">
-                                <tr>
-                                    <td>
-                                        <font size="5" color="#2980b9" face="Arial"><b>Biodata Anggota Keluarga</b></font>
-                                        <p><font size="2" color="#7f8c8d">Klik nama untuk membuka detail biodata:</font></p>
-                                        
-                                        <hr color="#ecf0f1">
+    <!-- SECTION KONTAKS -->
+    <section id="kontak" class="section">
+        <h2>Kontak Saya</h2>
+        <div class="contact-grid">
+            <a href="mailto:alamakashsamudra@gmail.com" class="contact-card">
+                <h3>Email</h3>
+                <p>alamakashsamudra@gmail.com</p>
+            </a>
+            <a href="https://github.com/Alaaksaa" target="_blank" class="contact-card">
+                <h3>GitHub</h3>
+                <p>github.com/Alaaksaa</p>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-card">
+                <h3>LinkedIn</h3>
+                <p>Alam Akash Samudra</p>
+            </a>
+        </div>
+    </section>
 
-                                        <!-- ARTIKEL 1: KEPALA KELUARGA -->
-                                        <article>
-                                            <details>
-                                                <summary><font size="4" color="#2c3e50"><b>Moch. Mawar Dinar Fauzan (Kepala Keluarga)</b></font></summary>
-                                                <br>
-                                                <table border="1" cellpadding="8" cellspacing="0" width="100%" bgcolor="#e8f8f5" bordercolor="#1abc9c">
-                                                    <tr><td width="30%"><b>Umur</b></td><td>48 Tahun</td></tr>
-                                                    <tr><td><b>Peran</b></td><td>Kepala Keluarga / Ayah</td></tr>
-                                                    <tr><td><b>Hobi Utama</b></td><td>Nonton Dracin (Drama China)</td></tr>
-                                                    <tr><td><b>Karakter</b></td><td>Pengayom, bijaksana, dan humoris</td></tr>
-                                                </table>
-                                                <br>
-                                            </details>
-                                        </article>
-
-                                        <hr color="#ecf0f1">
-
-                                        <!-- ARTIKEL 2: IBU -->
-                                        <article>
-                                            <details>
-                                                <summary><font size="4" color="#2c3e50"><b>Siti Syarah (Ibu)</b></font></summary>
-                                                <br>
-                                                <table border="1" cellpadding="8" cellspacing="0" width="100%" bgcolor="#fef9e7" bordercolor="#f1c40f">
-                                                    <tr><td width="30%"><b>Umur</b></td><td>43 Tahun</td></tr>
-                                                    <tr><td><b>Peran</b></td><td>Ibu Rumah Tangga</td></tr>
-                                                    <tr><td><b>Hobi Utama</b></td><td>Memasak, beres-beres rumah, Nonton Dracin</td></tr>
-                                                    <tr><td><b>Keahlian</b></td><td>Masakannya enak dan menjaga kehangatan rumah</td></tr>
-                                                </table>
-                                                <br>
-                                            </details>
-                                        </article>
-
-                                        <hr color="#ecf0f1">
-
-                                        <!-- ARTIKEL 3: ANAK PERTAMA -->
-                                        <article>
-                                            <details>
-                                                <summary><font size="4" color="#2c3e50"><b>Alam Akash Samudra (Anak Pertama)</b></font></summary>
-                                                <br>
-                                                <table border="1" cellpadding="8" cellspacing="0" width="100%" bgcolor="#ebf5fb" bordercolor="#3498db">
-                                                    <tr><td width="30%"><b>Umur</b></td><td>20 Tahun</td></tr>
-                                                    <tr><td><b>Peran</b></td><td>Anak Sulung</td></tr>
-                                                    <tr><td><b>Hobi Utama</b></td><td>Explore Alam, mengenal hal baru, exercise</td></tr>
-                                                    <tr><td><b>Status</b></td><td>Mahasiswa Sistem Informasi</td></tr>
-                                                </table>
-                                                <br>
-                                            </details>
-                                        </article>
-
-                                        <hr color="#ecf0f1">
-
-                                        <!-- ARTIKEL 4: ANAK KEDUA -->
-                                        <article>
-                                            <details>
-                                                <summary><font size="4" color="#2c3e50"><b>Ibnu Fasya Al Fadil (Anak Kedua)</b></font></summary>
-                                                <br>
-                                                <table border="1" cellpadding="8" cellspacing="0" width="100%" bgcolor="#eaf2f8" bordercolor="#5dade2">
-                                                    <tr><td width="30%"><b>Umur</b></td><td>15 Tahun</td></tr>
-                                                    <tr><td><b>Peran</b></td><td>Anak Kedua</td></tr>
-                                                    <tr><td><b>Hobi Utama</b></td><td>Main Game, freelancing</td></tr>
-                                                </table>
-                                                <br>
-                                            </details>
-                                        </article>
-
-                                        <hr color="#ecf0f1">
-
-                                        <!-- ARTIKEL 5: ANAK KETIGA -->
-                                        <article>
-                                            <details>
-                                                <summary><font size="4" color="#2c3e50"><b>Syafa Atul Maulida (Anak Ketiga)</b></font></summary>
-                                                <br>
-                                                <table border="1" cellpadding="8" cellspacing="0" width="100%" bgcolor="#fdf2e9" bordercolor="#e67e22">
-                                                    <tr><td width="30%"><b>Umur</b></td><td>10 Tahun</td></tr>
-                                                    <tr><td><b>Peran</b></td><td>Anak Bungsu</td></tr>
-                                                    <tr><td><b>Hobi Utama</b></td><td>Main-mainan, masak-masakan, menggambar</td></tr>
-                                                </table>
-                                                <br>
-                                            </details>
-                                        </article>
-
-                                    </td>
-                                </tr>
-                            </table>
-                        </section>
-
-                    </td>
-
-                    <!-- KOLOM KANAN: SIDEBAR WIDGETS (30%) DENGAN TAG ASIDE -->
-                    <td width="30%">
-                        <aside>
-
-                            <!-- WIDGET 1: STATISTIK -->
-                            <section>
-                                <table border="0" cellpadding="12" cellspacing="0" width="100%" bgcolor="#ffffff">
-                                    <tr bgcolor="#1abc9c">
-                                        <td align="center">
-                                            <font size="4" face="Arial" color="#ffffff"><b>STATISTIK KELUARGA</b></font>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <ul>
-                                                <li><b>Jumlah Anggota:</b> 5 Orang</li>
-                                                <li><b>Domisili:</b> Kuningan</li>
-                                                <li><b>Genre Favorit:</b> Drama China & Anime</li>
-                                                <li><b>Suasana Rumah:</b> Hangat & Aktif</li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </section>
-
-                            <br>
-
-                            <!-- WIDGET 2: AGENDA MINGGUAN -->
-                            <section id="kegiatan">
-                                <table border="0" cellpadding="12" cellspacing="0" width="100%" bgcolor="#ffffff">
-                                    <tr bgcolor="#f39c12">
-                                        <td align="center">
-                                            <font size="4" face="Arial" color="#ffffff"><b>AGENDA RUTIN</b></font>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <ol type="I">
-                                                <li><b>Jumat Malam:</b> Ngaji Bersama</li>
-                                                <li><b>Sabtu Pagi:</b> Beres-Beres Rumah</li>
-                                                <li><b>Minggu Sore:</b> Jogging ke Waduk Darma</li>
-                                            </ol>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </section>
-
-                            <br>
-
-                            <!-- WIDGET 3: QUOTE / PRINSIP -->
-                            <section>
-                                <table border="1" cellpadding="12" cellspacing="0" width="100%" bgcolor="#eaedd0" bordercolor="#f1c40f">
-                                    <tr>
-                                        <td align="center">
-                                            <font size="3" color="#2c3e50"><b>PRINSIP UTAMA</b></font><br><br>
-                                            <font size="2" color="#34495e"><i>"Saling mendukung hobi masing-masing dan selalu meluangkan waktu untuk mengobrol."</i></font>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </section>
-
-                        </aside>
-                    </td>
-                </tr>
-            </table>
-        </center>
-    </main>
-
-    <br><br>
-
-    <!-- FOOTER SEMANTIK HTML5 -->
+    <!-- FOOTER -->
     <footer>
-        <table border="0" cellpadding="15" cellspacing="0" width="100%" bgcolor="#3498db">
-            <tr>
-                <td align="center">
-                    <font size="2" face="Arial" color="#ffffff">
-                        Portal Biodata Keluarga | Dibuat untuk memenuhi Tugas 3 Mata Kuliah Web Desain |
-                    </font>
-                </td>
-            </tr>
-        </table>
+        <p>&copy; 2026 Alam Akash Samudra | Universitas Kuningan</p>
     </footer>
 
 </body>
